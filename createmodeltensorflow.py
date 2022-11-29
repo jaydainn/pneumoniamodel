@@ -124,4 +124,6 @@ history = model.fit(X_train, Y_train,
 print(len(X_train))
 print(len(Y_train))
 
+model.save("modeltf.h5" , save_format='h5')
+
 print(str(datetime.now()) + " done")
